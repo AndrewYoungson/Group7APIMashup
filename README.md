@@ -1,4 +1,3 @@
-Group 7 API Mashup
 # AC11002 - Coursework 2
 This repository is for our second group coursework in AC11002
 
