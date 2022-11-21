@@ -6,7 +6,7 @@ This repository is for our second group coursework in AC11002
 - Troy Tsang (L0lip)
 - Andrej Zarubin (andrejz2438)
 - Charlie Beardmore
-- Virag Szemann
+- Virag Szemann (viragszemann)
 
 ## Group Website
 [None]
