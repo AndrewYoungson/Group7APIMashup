@@ -5,7 +5,7 @@ This repository is for our second group coursework in AC11002
 - Andrew Youngson (AndrewYoungson)
 - Troy Tsang (L0lip)
 - Andrej Zarubin (andrejz2438)
-- Charlie Beardmore
+- Charlie Beardmore(CharlieB1608)
 - Virag Szemann (viragszemann)
 
 ## Group Website
