@@ -12,4 +12,4 @@ This repository is for our second group coursework in AC11002
 [None]
 
 ## Link to used APIs
-[None]
+- https://dictionaryapi.dev/
