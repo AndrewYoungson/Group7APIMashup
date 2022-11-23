@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+body {
+    background-size: cover;
+    background-image: url(https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+}
+
+.entry-title {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 55px;
+    font-weight: 200;
+    color: rgb(42, 20, 4);
+    
+   
+}
+
+.enter-word {
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 30px;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.input {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+input[type=text] {
+    background: #fff;
+    width: 340px;
+    height: 30px;
+    color: rgb(1, 1, 1);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    outline: none;
+    margin-left: 550px;
+    border-radius: 25px 0 0 25px;
+    text-align: center;
+    border: none;
+    }
+
+    input[type=submit] {
+
+        position: relative;
+        border-radius: 0 25px 25px 0;
+        height: 30px;
+        width: 150px;
+        border: none;
+        font-family: 'Gloria Hallelujah', cursive;
+        font-weight: bold;
+        cursor: pointer;
+
+    }
+
