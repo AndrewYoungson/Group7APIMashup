@@ -59,6 +59,22 @@ input[type=text] {
         font-family: 'Gloria Hallelujah', cursive;
         font-weight: bold;
         cursor: pointer;
+        margin-top: auto;
 
     }
 
+.definition { 
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 30px;
+    font-weight: normal;
+    padd
+    
+}
+
+.synonyms {
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 30px;
+    font-weight: normal;
+}
