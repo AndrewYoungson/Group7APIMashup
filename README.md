@@ -9,7 +9,8 @@ This repository is for our second group coursework in AC11002
 - Virag Szemann (viragszemann)
 
 ## Group Website
-- https://andrewyoungson.github.io/Group7APIMashup/
+
+https://andrewyoungson.github.io/Group7APIMashup/index.html
 
 ## Link to used APIs
 - https://dictionaryapi.dev/
