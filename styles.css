@@ -102,3 +102,7 @@ input[type=text] {
     font-size: 0.5cm;
 
 }
+
+input[type=submit]:hover {
+    background-color: rgb(143, 115, 88);
+}
