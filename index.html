@@ -38,8 +38,10 @@
     <div id="section 1" class="mt-2">
       <h1 class="entry-title">Dictionary Thesaurus</h1>
       <p class="enter-word">Enter word</p>
+      <form id="form">
       <input class="enter" type="text" id="word">
       <input type="submit" onclick="submit()">
+    </form>
     </div>
 
     <div id="Output">
@@ -48,7 +50,11 @@
       <h2 class="example" id="Example">Example: </h2>
     </div>
   </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
   <script>
+
     document.querySelector('.form').addEventListener('submit'), (e) => {
 
       e.preventDefault()
