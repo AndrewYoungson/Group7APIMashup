@@ -8,6 +8,14 @@ body {
     background-image: url(https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
 }
 
+
+#section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
 .entry-title {
     text-align: center;
     font-family: 'Permanent Marker', cursive;
@@ -33,6 +41,7 @@ body {
     font-size: 20px;
     box-sizing: border-box;
     transition: 1s;
+    margin: 0 auto;
 }
 
 input[type=text] {
@@ -43,10 +52,10 @@ input[type=text] {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     outline: none;
-    margin-left: 550px;
     border-radius: 25px 0 0 25px;
-    text-align: center;
+    text-align: left;
     border: none;
+    margin: 0 auto important;
     }
 
     input[type=submit] {
@@ -68,7 +77,6 @@ input[type=text] {
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 30px;
     font-weight: normal;
-    padd
     
 }
 
@@ -84,4 +92,22 @@ input[type=text] {
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 30px;
     font-weight: normal;
+}
+
+.navbar-dark{
+    background-color: #5C4033    !important;    
+}
+
+#form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 ;
+}
+
+.navbar-brand{
+    color: rgb(25, 12, 2);
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 30px;
+    font-weight: bolder;
 }
