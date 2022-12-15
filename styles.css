@@ -52,9 +52,8 @@ input[type=text] {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     outline: none;
-    margin-left: 550px;
     border-radius: 25px 0 0 25px;
-    text-align: center;
+    text-align: left;
     border: none;
     margin: 0 auto important;
     }
@@ -104,4 +103,11 @@ input[type=text] {
     align-items: center;
     justify-content: center;
     margin: 20px 0 ;
+}
+
+.navbar-brand{
+    color: rgb(25, 12, 2);
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 30px;
+    font-weight: bolder;
 }
