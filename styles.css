@@ -78,3 +78,10 @@ input[type=text] {
     font-size: 30px;
     font-weight: normal;
 }
+
+.example {
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 30px;
+    font-weight: normal;
+}
