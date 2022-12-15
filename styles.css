@@ -85,3 +85,7 @@ input[type=text] {
     font-size: 30px;
     font-weight: normal;
 }
+
+.navbar-dark{
+    background-color: #5C4033    !important;    
+}
