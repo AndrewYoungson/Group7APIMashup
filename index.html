@@ -52,30 +52,5 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
-  <script>
-    document.querySelector('.form').addEventListener('submit'), (e) => {
-
-      e.preventDefault()
-      const word = document.querySelector('#word').value
-      const url = `http://localhost:5000/${word}`
-
-      let def = document.querySelector('#Definition')
-      let examples = document.querySelector('.example')
-
-      example.innerHTML = ''
-
-      fetch(url, { method: 'GET', mode: 'cors' }).then(res => res.json()).then((data) => {
-        def.innerHTML = "Definition: " + data.results[0].lexicalEntries[0].entries[0].senses[0].definitions
-
-        let x = data.results[0].lexicalEntries[0].entries[0].senses[0].examples.forEach(element => {
-          example.innerHTML += (`<li>${element.text}</li>`)
-          })
-
-        })
-    }
-
-
-  </script>
-
 </body>
 </html>
