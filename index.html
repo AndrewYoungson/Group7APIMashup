@@ -36,23 +36,17 @@
   <main>
 
     <div id="section 1" class="mt-2">
-
-      
-      <h1 class="entry-title">Dictionary Thesaurus</h1>
-      <label class="enter-word form-label">Enter word</label>
-      <form class="form text-center my-5">
-        <input type="text" class="form-control text-center" autocomplete="off" id="word">
-        <button class="btn btn-primary mt-3" type="submit">submit</button>
-      </form>
-
+      <h1 class="entry-title">Hey There!</h1>
+      <p class="enter-word">Enter word</p>
+      <form id="form">
+      <input class="enter" type="text" id="word">
+      <input type="submit" onclick="submit()">
     </div>
 
     <div id="Output">
       <h2 class="definition" id="Definition">Definition: </h2>
-      <p id="definition"></p>
       <h2 class="synonyms" id="Synonyms">Synonyms: </h2>
-      <h2 class="examples" id="Example">Example: </h2>
-      <p class="example"></p>
+      <h2 class="example" id="Example">Example: </h2>
     </div>
   </main>
 
@@ -65,7 +59,7 @@
       const word = document.querySelector('#word').value
       const url = `http://localhost:5000/${word}`
 
-      let def = document.querySelector('#definition')
+      let def = document.querySelector('#Definition')
       let examples = document.querySelector('.example')
 
       example.innerHTML = ''
@@ -73,7 +67,7 @@
       fetch(url, { method: 'GET', mode: 'cors' }).then(res => res.json()).then((data) => {
         def.innerHTML = "Definition: " + data.results[0].lexicalEntries[0].entries[0].senses[0].definitions
 
-        let x = data.results[0].lexicalEntries[0].entries[0].senses[0].example.forEach(element => {
+        let x = data.results[0].lexicalEntries[0].entries[0].senses[0].examples.forEach(element => {
           example.innerHTML += (`<li>${element.text}</li>`)
           })
 
